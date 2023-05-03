@@ -1,1 +1,6 @@
 git config user.email (To check the email address for used by git.)
+
+For Adding an exsisting repository on github use the following commands.
+git remote add origin <URL>(The github repository URL)
+git branch -M main
+git push -u origin main 
